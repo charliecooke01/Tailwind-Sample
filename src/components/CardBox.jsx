@@ -13,10 +13,12 @@ function CardBox() {
             <Card className="w-96 mx-2">
                 <CardBody className="text-center">
                     <Typography variant="h5" className="mb-2">
-          some text
-        </Typography>
-        <Typography>hello world</Typography>
-      </CardBody>
+                      some text
+                    </Typography>
+                    <Typography>
+                      hello world
+                    </Typography>
+                </CardBody>
             </Card>
         </div>
     );
