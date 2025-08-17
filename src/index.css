@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
+
+    
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
@@ -15,6 +19,14 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    --primary-color: #CF3F28;
+    --secondary-color: #F5A642;
+    --tertiary-color: #FFFFFF;
+    --dark-color: #3D2A19;
+    --light-color: #FBE2B4;
+    --stroke-color: #0a0c3813;
+    --text-color: #807E7D;
 }
 
 a {
